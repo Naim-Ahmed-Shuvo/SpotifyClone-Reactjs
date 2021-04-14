@@ -1,0 +1,29 @@
+.sideBar{
+    min-width: 230px;
+    height: 100vh;
+    flex: 0.2;
+    background: #040404;
+    padding: 0px 10px;
+    color: aliceblue;
+}
+
+.sideBar>hr{
+    border: 1px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+}
+.sidebar_logo_conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.sidebar_title{
+    margin-left: 15px;
+}
+.sidebar__logo{
+    height: 50px;
+    width: 40px;
+    object-fit: contain;
+    margin-right: 5px;
+}

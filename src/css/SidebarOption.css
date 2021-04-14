@@ -1,0 +1,19 @@
+.sidebar_option{
+    color: rgb(163, 168, 163);
+    height: 40px;
+    cursor: pointer;
+    transition: 200ms color  ease-in;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar_option:hover{
+    color: aliceblue;
+}
+.sidebar_option>p{
+    font-size: 14px;
+    margin: 10px 0px 0px 20px;
+}
+.sidebarOption__icon{
+    padding: 0px 10px;
+}
