@@ -38,6 +38,7 @@ const  App =() => {
 
       // 
       spotify.getUserPlaylists().then(playlists=>{
+        console.log('playlists: ',playlists)
         dispatch({
           type: "SET_PLAYLISTS",
           playlists
@@ -52,7 +53,7 @@ const  App =() => {
   console.log(" 👨user: ",user);
   return (
     <div className="App">
-      {!token?<Player spotify={spotify}/>:<Login/>}
+      {token?<Player spotify={spotify}/>:<Login/>}
       
     </div>
   );

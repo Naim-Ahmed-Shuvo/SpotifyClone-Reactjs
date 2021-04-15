@@ -9,7 +9,7 @@ import { useStateValue } from '../store/DataLayer';
 
 // 
 const Sidebar = () => {
-    const [{playlists}] = useStateValue();
+    const [{playlists},dispatch] = useStateValue();
 
     // 
     return (
@@ -25,9 +25,11 @@ const Sidebar = () => {
             <br/>
             <strong className="sidebar_title">PLAY LISTS</strong>
            <hr/>
-           <SidebarOptions title="Hip Hop"  />
-            <SidebarOptions title="Rock"  />
-            <SidebarOptions title="Rap"   />
+           {playlists?.items?.map((playlist)=>{
+               return <SidebarOptions title={playlist.name}  />
+           })}
+           
+            
         </div>
     );
 };
