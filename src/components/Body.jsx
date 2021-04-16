@@ -1,9 +1,12 @@
 import React from 'react';
-import '../css/Body.css'
-const Body = () => {
+import '../css/Body.css';
+import Header from './Header';
+
+// 
+const Body = ({spotify}) => {
     return (
         <div className="body">
-            Body
+            <Header  spotify={spotify}/>
         </div>
     );
 };
