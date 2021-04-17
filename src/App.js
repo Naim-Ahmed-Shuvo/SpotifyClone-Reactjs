@@ -44,6 +44,14 @@ const  App =() => {
           playlists
         })
       })
+
+      // 
+      spotify.getPlaylist('37i9dQZEVXcVeuuO7NrGRm').then(response=>{
+        dispatch({
+          type:"SET_DISCOVER_WEEKLY",
+          discover_weekly: response
+        })
+      })
     }
     
     // console.log('access_token: ',_token );

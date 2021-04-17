@@ -7,7 +7,7 @@ import ShuffleIcon from "@material-ui/icons/Shuffle";
 import RepeatIcon from "@material-ui/icons/Repeat";
 import VolumeDown from "@material-ui/icons/VolumeDown";
 import Slider from "@material-ui/core/Slider";
-import VolumeUp from "@material-ui/icons/VolumeUp";
+
 import PlaylistPlayIcon from "@material-ui/icons/PlaylistPlay";
 import { Grid } from "@material-ui/core";
 

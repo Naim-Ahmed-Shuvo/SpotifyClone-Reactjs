@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/Sidebar.css'
 import SidebarOptions from './SidebarOptions';
-import PlayCircleFilledWhiteIcon from '@material-ui/icons/PlayCircleFilledWhite';
+
 import HomeIcon from '@material-ui/icons/Home';
 import SearchIcon from '@material-ui/icons/Search';
 import LibraryMusicIcon from '@material-ui/icons/LibraryMusic';
@@ -9,7 +9,7 @@ import { useStateValue } from '../store/DataLayer';
 
 // 
 const Sidebar = () => {
-    const [{playlists},dispatch] = useStateValue();
+    const [{playlists}] = useStateValue();
 
     // 
     return (
