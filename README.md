@@ -18,7 +18,7 @@ ___
 ---
 > #### Project Link Below
 
-[Spotify Clone React](https://607b56898b9c67119aaa05cb--spotify-clone-react-shuvo.netlify.app)
+[Spotify Clone React](https://spotify-clone-react-shuvo.netlify.app)
 
 ```
  git clone 'project url github'
